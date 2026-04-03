@@ -60,13 +60,6 @@ sk-...여기에_키...
 python .\MianCode.py
 ```
 
-## GitHub 업로드 가이드 (개인정보 제거)
-- `credentials.json`, `token.json`, `OPENAI_API_KEY.text`는 절대 커밋하지 마세요.
-- 코드에서 API 키를 직접 하드코딩하지 마세요.
-- 예시값을 그대로 올릴 경우 자동으로 재설정 하세요:
-  - `OPENAI_API_KEY.text` 예시: `put your API key here`
-  - `credentials.json` 예시: 개인 정보가 포함된 원본을 올리지 말고, `credentials.template.json`을 만들어서 (빈 값) 공유
-
 ### 중요: 파일 생성/세팅 예시
 1) `.gitignore`에 아래 추가
 ```gitignore
